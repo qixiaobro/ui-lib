@@ -1,0 +1,29 @@
+.ds-button {
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.ds-button--primary {
+  background-color: #0e34cd;
+  color: #fff;
+}
+.ds-button--secondary {
+  background-color: #b9b9b9;
+  color: #000;
+}
+.ds-button--sm {
+  min-width: 0.75rem;
+}
+.ds-button--md {
+  min-width: 1.25rem;
+}
+.ds-button--lg {
+  min-width: 1.5rem;
+}
